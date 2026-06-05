@@ -1,2 +1,3 @@
-# xrlp-ledger
-Xrlp ledger
+# xrp-ledger
+
+Xrp ledger
