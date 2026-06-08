@@ -1,0 +1,26 @@
+{
+  "name": "xrp-ledger-learning",
+  "version": "1.0.0",
+  "description": "XRP Ledger learning project",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "xrpl",
+    "ripple"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "xrpl": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}
