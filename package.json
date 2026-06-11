@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "start": "tsx src/index.ts",
-    "dev": "tsx watch src/index.ts",
+    "trustlines": "tsx src/trustlines.ts",
+    "monitor": "tsx src/monitor.ts",
+    "history": "tsx src/history.ts",
     "typecheck": "tsc --noEmit"
   },
   "keywords": [
